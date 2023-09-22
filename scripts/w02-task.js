@@ -5,7 +5,7 @@
 /* Step 2 - Variables */
 const fullName = "Santiago Ariel Chaparro";
 let currentYear = "2023";
-let profilePicture = "images/small-profile-crop.jpg"
+let profilePicture = "images/small-profile-crop.jpg";
 
 /* Step 3 - Element Variables */
 const nameElement = document.getElementById("name");
