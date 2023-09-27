@@ -63,3 +63,23 @@ function reloadShip() {
     shipHealth -= 1;
     shipAmmo += 3;
 }
+
+
+// let firstName = 'Antonia';
+// let lastName = 'Francesca';
+
+// const fullName = (first, last) => `${first} ${last}`;
+
+// document.querySelector("#fullName").innerHTML = fullName(firstName, lastName);
+
+// let names = ['Nancy','Blessing','Jorge','Svetlana','Bob'];
+
+// let namesB = names.filter((name) => name[0] == "B");
+
+// let namesLength = names.map((name) => name.length);
+
+// let initialValue = 0;
+
+// let namesAvg = names.reduce((total, name) => total + name.length, 0) / names.length;
+
+// console.log(namesAvg);
