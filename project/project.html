@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dog Project</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;600&display=swap"
+    rel="stylesheet">
+    <link rel="stylesheet" href="styles/project.css">
+    <script src="scripts/project.js" type="module"></script>
+    <script src="modules/Percentage.js" type="module"></script>
+</head>
+<body>
+    <nav>   
+    </nav>
+    <main>
+        <h1>Do you know about dogs?</h1>
+        <h2>Mark the facts that you know:</h2>
+        <div id="facts">
+        </div>
+        
+        <button id="render">Refresh and Show Results</button>
+        <p id="percentage"></p>
+    </main>
+    <footer>
+        &copy;<span id="year"></span> | Week 06 - Project | CSE 121b
+      </footer>
+      <script>
+        document.getElementById("year").innerHTML = new Date().getFullYear();
+    </script>
+</body>
+</html>

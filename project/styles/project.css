@@ -1,0 +1,41 @@
+/* Universal Selector */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* HTML Selectors */
+body {
+    font-family: 'Roboto', Helvetica, sans-serif;
+    text-align: center;
+}
+
+main {
+    max-width: 1200px;
+    margin: auto;
+}
+
+article {
+    padding: 0.5em;
+    margin: 1em;
+    background-color: whitesmoke;
+    
+}
+h1 {
+    padding: 5%;
+    text-align: center;
+}
+
+#percentage {
+    padding: 1em;
+}
+
+footer {
+    padding: 1em;
+    color: aliceblue;
+    background-color: darkgrey;
+    max-width: 1200px;
+    margin: auto;
+}
+
